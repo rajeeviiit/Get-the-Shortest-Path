@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.ruchita.astar.MainActivity">
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="56dp"
+        android:text="start"
+        android:textSize="24sp"
+        android:layout_margin="16dp"
+        android:id="@+id/startbtn"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="56dp"
+        android:text="instructions"
+        android:textSize="24sp"
+        android:layout_margin="16dp"
+        android:id="@+id/instrbtn"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="56dp"
+        android:text="exit"
+        android:textSize="24sp"
+        android:layout_margin="16dp"
+        android:id="@+id/exitbtn"/>
+
+
+
+</LinearLayout>
