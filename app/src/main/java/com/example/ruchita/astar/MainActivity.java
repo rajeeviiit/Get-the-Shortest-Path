@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -25,6 +26,20 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 finish();
                 System.exit(0);
+            }
+        });
+
+        instrButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(MainActivity.this,"Here are the instructions :P",Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        startButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(MainActivity.this,"The game will start now!",Toast.LENGTH_SHORT).show();
             }
         });
     }
