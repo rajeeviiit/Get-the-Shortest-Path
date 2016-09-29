@@ -5,11 +5,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-<<<<<<< HEAD
-        classpath 'com.android.tools.build:gradle:2.1.3'
-=======
         classpath 'com.android.tools.build:gradle:2.2.0'
->>>>>>> b1e34709f3d45bef39592dabca7cb44cb29a5434
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files

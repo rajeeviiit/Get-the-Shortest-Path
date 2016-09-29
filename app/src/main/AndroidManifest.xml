@@ -8,21 +8,19 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-<<<<<<< HEAD
-        <activity android:name=".Instruction">
-=======
+
         <activity android:name=".MainActivity">
->>>>>>> b1e34709f3d45bef39592dabca7cb44cb29a5434
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-<<<<<<< HEAD
-=======
+
+        <activity android:name=".Instruction"></activity>
+
         <activity android:name=".GameActivity"></activity>
->>>>>>> b1e34709f3d45bef39592dabca7cb44cb29a5434
+
     </application>
 
 </manifest>
