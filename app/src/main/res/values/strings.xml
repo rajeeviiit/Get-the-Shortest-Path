@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">AStar</string>
+
     <string name="str">&#8226;This game gives the shortest path between any two points on the grid. \n &#8226; To set the obtacles first click on the blocked node and then
           click within the white grid. \n &#8226; To remove the obstacle  click on it. \n &#8226; Click on the green node to set the start position \n &#8226;
           Click on the red node to set the end position \n &#8226; You can choose only one start and end point \n &#8226; To change the start and end position
