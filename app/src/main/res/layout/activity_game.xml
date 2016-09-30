@@ -18,7 +18,8 @@
             android:layout_height="match_parent"
             android:orientation="vertical"
             android:layout_margin="24dp"
-            android:gravity="center">
+            android:gravity="center"
+            android:id="@+id/startll">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -41,7 +42,8 @@
             android:layout_height="match_parent"
             android:orientation="vertical"
             android:layout_margin="24dp"
-            android:gravity="center">
+            android:gravity="center"
+            android:id="@+id/endll">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -64,7 +66,8 @@
             android:layout_height="match_parent"
             android:orientation="vertical"
             android:layout_margin="24dp"
-            android:gravity="center">
+            android:gravity="center"
+            android:id="@+id/unblockedll">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -87,7 +90,8 @@
             android:layout_height="match_parent"
             android:orientation="vertical"
             android:layout_margin="24dp"
-            android:gravity="center">
+            android:gravity="center"
+            android:id="@+id/blockll">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -115,56 +119,56 @@
 
         <TableRow>
             <TextView
-                android:id="@+id/tv1"
+                android:id="@+id/tv00"
                 android:layout_width="36dp"
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
                 />
             <TextView
-                android:id="@+id/tv2"
+                android:id="@+id/tv01"
                 android:layout_width="36dp"
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
                 />
             <TextView
-                android:id="@+id/tv3"
+                android:id="@+id/tv02"
                 android:layout_width="36dp"
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
                 />
             <TextView
-                android:id="@+id/tv4"
+                android:id="@+id/tv03"
                 android:layout_width="36dp"
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
                 />
             <TextView
-                android:id="@+id/tv5"
+                android:id="@+id/tv04"
                 android:layout_width="36dp"
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
                 />
             <TextView
-                android:id="@+id/tv6"
+                android:id="@+id/tv05"
                 android:layout_width="36dp"
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
                 />
             <TextView
-                android:id="@+id/tv7"
+                android:id="@+id/tv06"
                 android:layout_width="36dp"
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
                 />
             <TextView
-                android:id="@+id/tv8"
+                android:id="@+id/tv07"
                 android:layout_width="36dp"
                 android:layout_height="36dp"
                 android:text=""
@@ -174,13 +178,6 @@
         </TableRow>
 
         <TableRow>
-            <TextView
-                android:id="@+id/tv9"
-                android:layout_width="36dp"
-                android:layout_height="36dp"
-                android:text=""
-                android:background="@drawable/whitebox"
-                />
             <TextView
                 android:id="@+id/tv10"
                 android:layout_width="36dp"
@@ -230,10 +227,6 @@
                 android:text=""
                 android:background="@drawable/whitebox"
                 />
-
-        </TableRow>
-
-        <TableRow>
             <TextView
                 android:id="@+id/tv17"
                 android:layout_width="36dp"
@@ -241,20 +234,10 @@
                 android:text=""
                 android:background="@drawable/whitebox"
                 />
-            <TextView
-                android:id="@+id/tv18"
-                android:layout_width="36dp"
-                android:layout_height="36dp"
-                android:text=""
-                android:background="@drawable/whitebox"
-                />
-            <TextView
-                android:id="@+id/tv19"
-                android:layout_width="36dp"
-                android:layout_height="36dp"
-                android:text=""
-                android:background="@drawable/whitebox"
-                />
+
+        </TableRow>
+
+        <TableRow>
             <TextView
                 android:id="@+id/tv20"
                 android:layout_width="36dp"
@@ -290,10 +273,6 @@
                 android:text=""
                 android:background="@drawable/whitebox"
                 />
-
-        </TableRow>
-
-        <TableRow>
             <TextView
                 android:id="@+id/tv25"
                 android:layout_width="36dp"
@@ -315,20 +294,10 @@
                 android:text=""
                 android:background="@drawable/whitebox"
                 />
-            <TextView
-                android:id="@+id/tv28"
-                android:layout_width="36dp"
-                android:layout_height="36dp"
-                android:text=""
-                android:background="@drawable/whitebox"
-                />
-            <TextView
-                android:id="@+id/tv29"
-                android:layout_width="36dp"
-                android:layout_height="36dp"
-                android:text=""
-                android:background="@drawable/whitebox"
-                />
+
+        </TableRow>
+
+        <TableRow>
             <TextView
                 android:id="@+id/tv30"
                 android:layout_width="36dp"
@@ -350,10 +319,6 @@
                 android:text=""
                 android:background="@drawable/whitebox"
                 />
-
-        </TableRow>
-
-        <TableRow>
             <TextView
                 android:id="@+id/tv33"
                 android:layout_width="36dp"
@@ -389,20 +354,10 @@
                 android:text=""
                 android:background="@drawable/whitebox"
                 />
-            <TextView
-                android:id="@+id/tv38"
-                android:layout_width="36dp"
-                android:layout_height="36dp"
-                android:text=""
-                android:background="@drawable/whitebox"
-                />
-            <TextView
-                android:id="@+id/tv39"
-                android:layout_width="36dp"
-                android:layout_height="36dp"
-                android:text=""
-                android:background="@drawable/whitebox"
-                />
+
+        </TableRow>
+
+        <TableRow>
             <TextView
                 android:id="@+id/tv40"
                 android:layout_width="36dp"
@@ -410,10 +365,6 @@
                 android:text=""
                 android:background="@drawable/whitebox"
                 />
-
-        </TableRow>
-
-        <TableRow>
             <TextView
                 android:id="@+id/tv41"
                 android:layout_width="36dp"
@@ -463,24 +414,10 @@
                 android:text=""
                 android:background="@drawable/whitebox"
                 />
-            <TextView
-                android:id="@+id/tv48"
-                android:layout_width="36dp"
-                android:layout_height="36dp"
-                android:text=""
-                android:background="@drawable/whitebox"
-                />
 
         </TableRow>
 
         <TableRow>
-            <TextView
-                android:id="@+id/tv49"
-                android:layout_width="36dp"
-                android:layout_height="36dp"
-                android:text=""
-                android:background="@drawable/whitebox"
-                />
             <TextView
                 android:id="@+id/tv50"
                 android:layout_width="36dp"
@@ -530,10 +467,6 @@
                 android:text=""
                 android:background="@drawable/whitebox"
                 />
-
-        </TableRow>
-
-        <TableRow>
             <TextView
                 android:id="@+id/tv57"
                 android:layout_width="36dp"
@@ -541,20 +474,10 @@
                 android:text=""
                 android:background="@drawable/whitebox"
                 />
-            <TextView
-                android:id="@+id/tv58"
-                android:layout_width="36dp"
-                android:layout_height="36dp"
-                android:text=""
-                android:background="@drawable/whitebox"
-                />
-            <TextView
-                android:id="@+id/tv59"
-                android:layout_width="36dp"
-                android:layout_height="36dp"
-                android:text=""
-                android:background="@drawable/whitebox"
-                />
+
+        </TableRow>
+
+        <TableRow>
             <TextView
                 android:id="@+id/tv60"
                 android:layout_width="36dp"
@@ -590,6 +513,87 @@
                 android:text=""
                 android:background="@drawable/whitebox"
                 />
+            <TextView
+                android:id="@+id/tv65"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:text=""
+                android:background="@drawable/whitebox"
+                />
+            <TextView
+                android:id="@+id/tv66"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:text=""
+                android:background="@drawable/whitebox"
+                />
+            <TextView
+                android:id="@+id/tv67"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:text=""
+                android:background="@drawable/whitebox"
+                />
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/tv70"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:text=""
+                android:background="@drawable/whitebox"
+                />
+            <TextView
+                android:id="@+id/tv71"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:text=""
+                android:background="@drawable/whitebox"
+                />
+            <TextView
+                android:id="@+id/tv72"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:text=""
+                android:background="@drawable/whitebox"
+                />
+            <TextView
+                android:id="@+id/tv73"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:text=""
+                android:background="@drawable/whitebox"
+                />
+            <TextView
+                android:id="@+id/tv74"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:text=""
+                android:background="@drawable/whitebox"
+                />
+            <TextView
+                android:id="@+id/tv75"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:text=""
+                android:background="@drawable/whitebox"
+                />
+            <TextView
+                android:id="@+id/tv76"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:text=""
+                android:background="@drawable/whitebox"
+                />
+            <TextView
+                android:id="@+id/tv77"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:text=""
+                android:background="@drawable/whitebox"
+                />
 
         </TableRow>
 
@@ -612,6 +616,5 @@
             android:text="reset"
             android:id="@+id/resetbtn"/>
     </LinearLayout>
-
 
 </LinearLayout>
