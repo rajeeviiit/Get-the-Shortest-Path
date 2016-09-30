@@ -19,7 +19,8 @@
             android:orientation="vertical"
             android:layout_margin="24dp"
             android:gravity="center"
-            android:id="@+id/startll">
+            android:id="@+id/startll"
+            android:onClick="changeBlockColor">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -43,7 +44,8 @@
             android:orientation="vertical"
             android:layout_margin="24dp"
             android:gravity="center"
-            android:id="@+id/endll">
+            android:id="@+id/endll"
+            android:onClick="changeBlockColor">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -67,7 +69,8 @@
             android:orientation="vertical"
             android:layout_margin="24dp"
             android:gravity="center"
-            android:id="@+id/unblockedll">
+            android:id="@+id/unblockedll"
+            android:onClick="changeBlockColor">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -91,7 +94,8 @@
             android:orientation="vertical"
             android:layout_margin="24dp"
             android:gravity="center"
-            android:id="@+id/blockll">
+            android:id="@+id/blockll"
+            android:onClick="changeBlockColor">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -124,6 +128,7 @@
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
+                android:onClick="setBox"
                 />
             <TextView
                 android:id="@+id/tv01"
@@ -131,6 +136,7 @@
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
+                android:onClick="setBox"
                 />
             <TextView
                 android:id="@+id/tv02"
@@ -138,6 +144,7 @@
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
+                android:onClick="setBox"
                 />
             <TextView
                 android:id="@+id/tv03"
@@ -145,6 +152,7 @@
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
+                android:onClick="setBox"
                 />
             <TextView
                 android:id="@+id/tv04"
@@ -152,6 +160,7 @@
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
+                android:onClick="setBox"
                 />
             <TextView
                 android:id="@+id/tv05"
@@ -159,6 +168,7 @@
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
+                android:onClick="setBox"
                 />
             <TextView
                 android:id="@+id/tv06"
@@ -166,6 +176,7 @@
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
+                android:onClick="setBox"
                 />
             <TextView
                 android:id="@+id/tv07"
@@ -173,6 +184,7 @@
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
+                android:onClick="setBox"
                 />
 
         </TableRow>
@@ -184,6 +196,7 @@
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
+                android:onClick="setBox"
                 />
             <TextView
                 android:id="@+id/tv11"
@@ -191,6 +204,7 @@
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
+                android:onClick="setBox"
                 />
             <TextView
                 android:id="@+id/tv12"
@@ -198,6 +212,7 @@
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
+                android:onClick="setBox"
                 />
             <TextView
                 android:id="@+id/tv13"
@@ -205,6 +220,7 @@
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
+                android:onClick="setBox"
                 />
             <TextView
                 android:id="@+id/tv14"
@@ -212,6 +228,7 @@
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
+                android:onClick="setBox"
                 />
             <TextView
                 android:id="@+id/tv15"
@@ -219,6 +236,7 @@
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
+                android:onClick="setBox"
                 />
             <TextView
                 android:id="@+id/tv16"
@@ -226,6 +244,7 @@
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
+                android:onClick="setBox"
                 />
             <TextView
                 android:id="@+id/tv17"
@@ -233,6 +252,7 @@
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
+                android:onClick="setBox"
                 />
 
         </TableRow>
@@ -244,6 +264,7 @@
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
+                android:onClick="setBox"
                 />
             <TextView
                 android:id="@+id/tv21"
@@ -251,6 +272,7 @@
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
+                android:onClick="setBox"
                 />
             <TextView
                 android:id="@+id/tv22"
@@ -258,6 +280,7 @@
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
+                android:onClick="setBox"
                 />
             <TextView
                 android:id="@+id/tv23"
@@ -265,6 +288,7 @@
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
+                android:onClick="setBox"
                 />
             <TextView
                 android:id="@+id/tv24"
@@ -272,6 +296,7 @@
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
+                android:onClick="setBox"
                 />
             <TextView
                 android:id="@+id/tv25"
@@ -279,6 +304,7 @@
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
+                android:onClick="setBox"
                 />
             <TextView
                 android:id="@+id/tv26"
@@ -286,6 +312,7 @@
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
+                android:onClick="setBox"
                 />
             <TextView
                 android:id="@+id/tv27"
@@ -293,6 +320,7 @@
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
+                android:onClick="setBox"
                 />
 
         </TableRow>
@@ -304,6 +332,7 @@
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
+                android:onClick="setBox"
                 />
             <TextView
                 android:id="@+id/tv31"
@@ -311,6 +340,7 @@
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
+                android:onClick="setBox"
                 />
             <TextView
                 android:id="@+id/tv32"
@@ -318,6 +348,7 @@
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
+                android:onClick="setBox"
                 />
             <TextView
                 android:id="@+id/tv33"
@@ -325,6 +356,7 @@
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
+                android:onClick="setBox"
                 />
             <TextView
                 android:id="@+id/tv34"
@@ -332,6 +364,7 @@
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
+                android:onClick="setBox"
                 />
             <TextView
                 android:id="@+id/tv35"
@@ -339,6 +372,7 @@
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
+                android:onClick="setBox"
                 />
             <TextView
                 android:id="@+id/tv36"
@@ -346,6 +380,7 @@
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
+                android:onClick="setBox"
                 />
             <TextView
                 android:id="@+id/tv37"
@@ -353,6 +388,7 @@
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
+                android:onClick="setBox"
                 />
 
         </TableRow>
@@ -364,6 +400,7 @@
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
+                android:onClick="setBox"
                 />
             <TextView
                 android:id="@+id/tv41"
@@ -371,6 +408,7 @@
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
+                android:onClick="setBox"
                 />
             <TextView
                 android:id="@+id/tv42"
@@ -378,6 +416,7 @@
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
+                android:onClick="setBox"
                 />
             <TextView
                 android:id="@+id/tv43"
@@ -385,6 +424,7 @@
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
+                android:onClick="setBox"
                 />
             <TextView
                 android:id="@+id/tv44"
@@ -392,6 +432,7 @@
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
+                android:onClick="setBox"
                 />
             <TextView
                 android:id="@+id/tv45"
@@ -399,6 +440,7 @@
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
+                android:onClick="setBox"
                 />
             <TextView
                 android:id="@+id/tv46"
@@ -406,6 +448,7 @@
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
+                android:onClick="setBox"
                 />
             <TextView
                 android:id="@+id/tv47"
@@ -413,6 +456,7 @@
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
+                android:onClick="setBox"
                 />
 
         </TableRow>
@@ -424,6 +468,7 @@
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
+                android:onClick="setBox"
                 />
             <TextView
                 android:id="@+id/tv51"
@@ -431,6 +476,7 @@
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
+                android:onClick="setBox"
                 />
             <TextView
                 android:id="@+id/tv52"
@@ -438,6 +484,7 @@
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
+                android:onClick="setBox"
                 />
             <TextView
                 android:id="@+id/tv53"
@@ -445,6 +492,7 @@
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
+                android:onClick="setBox"
                 />
             <TextView
                 android:id="@+id/tv54"
@@ -452,6 +500,7 @@
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
+                android:onClick="setBox"
                 />
             <TextView
                 android:id="@+id/tv55"
@@ -459,6 +508,7 @@
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
+                android:onClick="setBox"
                 />
             <TextView
                 android:id="@+id/tv56"
@@ -466,6 +516,7 @@
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
+                android:onClick="setBox"
                 />
             <TextView
                 android:id="@+id/tv57"
@@ -473,6 +524,7 @@
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
+                android:onClick="setBox"
                 />
 
         </TableRow>
@@ -484,6 +536,7 @@
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
+                android:onClick="setBox"
                 />
             <TextView
                 android:id="@+id/tv61"
@@ -491,6 +544,7 @@
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
+                android:onClick="setBox"
                 />
             <TextView
                 android:id="@+id/tv62"
@@ -498,6 +552,7 @@
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
+                android:onClick="setBox"
                 />
             <TextView
                 android:id="@+id/tv63"
@@ -505,6 +560,7 @@
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
+                android:onClick="setBox"
                 />
             <TextView
                 android:id="@+id/tv64"
@@ -512,6 +568,7 @@
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
+                android:onClick="setBox"
                 />
             <TextView
                 android:id="@+id/tv65"
@@ -519,6 +576,7 @@
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
+                android:onClick="setBox"
                 />
             <TextView
                 android:id="@+id/tv66"
@@ -526,6 +584,7 @@
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
+                android:onClick="setBox"
                 />
             <TextView
                 android:id="@+id/tv67"
@@ -533,6 +592,7 @@
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
+                android:onClick="setBox"
                 />
 
         </TableRow>
@@ -544,6 +604,7 @@
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
+                android:onClick="setBox"
                 />
             <TextView
                 android:id="@+id/tv71"
@@ -551,6 +612,7 @@
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
+                android:onClick="setBox"
                 />
             <TextView
                 android:id="@+id/tv72"
@@ -558,6 +620,7 @@
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
+                android:onClick="setBox"
                 />
             <TextView
                 android:id="@+id/tv73"
@@ -565,6 +628,7 @@
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
+                android:onClick="setBox"
                 />
             <TextView
                 android:id="@+id/tv74"
@@ -572,6 +636,7 @@
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
+                android:onClick="setBox"
                 />
             <TextView
                 android:id="@+id/tv75"
@@ -579,6 +644,7 @@
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
+                android:onClick="setBox"
                 />
             <TextView
                 android:id="@+id/tv76"
@@ -586,6 +652,7 @@
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
+                android:onClick="setBox"
                 />
             <TextView
                 android:id="@+id/tv77"
@@ -593,6 +660,7 @@
                 android:layout_height="36dp"
                 android:text=""
                 android:background="@drawable/whitebox"
+                android:onClick="setBox"
                 />
 
         </TableRow>

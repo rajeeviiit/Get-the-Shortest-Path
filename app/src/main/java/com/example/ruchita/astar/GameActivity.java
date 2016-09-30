@@ -2,6 +2,7 @@ package com.example.ruchita.astar;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -23,6 +24,14 @@ public class GameActivity extends AppCompatActivity {
         setContentView(R.layout.activity_game);
 
         initiatevariables();
+    }
+
+    public void setBox(View view){
+
+    }
+
+    public void changeBlockColor(View view){
+        
     }
 
     private void initiatevariables(){
