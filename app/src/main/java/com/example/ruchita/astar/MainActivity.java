@@ -1,6 +1,7 @@
 package com.example.ruchita.astar;
 
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -32,14 +33,16 @@ public class MainActivity extends AppCompatActivity {
         instrButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this,"Here are the instructions :P",Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MainActivity.this, Instruction.class);
+                startActivity(intent);
             }
         });
 
         startButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this,"The game will start now!",Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MainActivity.this, GameActivity.class);
+                startActivity(intent);
             }
         });
     }
